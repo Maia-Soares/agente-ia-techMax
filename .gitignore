@@ -1,0 +1,44 @@
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+env/
+.venv/
+ENV/
+
+# Configurações locais e credenciais
+*.env
+.env.*
+
+# Arquivos de log
+*.log
+
+# Arquivos de compilação/distribuição
+build/
+dist/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache do pytest
+.cache/
+.pytest_cache/
+
+# Relatórios de cobertura de testes
+htmlcov/
+.coverage
+coverage.xml
+
+# Arquivos do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Arquivos do Pyre type checker
+.pyre/
